@@ -34,6 +34,11 @@ class PhoneCountryCodes {
    * Get the list of phone codes.
    * 
    * @return array
+   *  "AF" => "+93",
+   *  "AX" => "+358",
+   *  "AL" => "+355",
+   *  "DZ" => "+213",
+   *  "AS" => "+1684",
    */
   public static function getCodesList() {
     
@@ -41,7 +46,7 @@ class PhoneCountryCodes {
     
     $codes_list = [];
     foreach ($phone_codes as $c) {
-      $codes_list[] = $c['dial_code'];
+      $codes_list[$c['code']] = $c['dial_code'];
     }
     
     return $codes_list;
@@ -59,4 +64,5 @@ class PhoneCountryCodes {
   }
   
 }
+
 
