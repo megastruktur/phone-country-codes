@@ -1,0 +1,31 @@
+{
+  "name": "megastruktur/phone-country-codes",
+  "type": "library",
+  "description": "A simple library to get phone country codes.",
+  "homepage": "http://github.com/megastruktur/phone-country-codes",
+  "keywords": [
+    "phone",
+    "country"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Varaksin",
+      "email": "astromortis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "megastruktur\\PhoneCountryCodes\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
