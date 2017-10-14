@@ -1,6 +1,6 @@
 <?php
 
-namespace megastruktur\PhoneCountryCodes;
+namespace megastruktur;
 
 class PhoneCountryCodes {
   

@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "megastruktur\\PhoneCountryCodes\\": "src"
+      "megastruktur\\": "src"
     }
   },
   "config": {
